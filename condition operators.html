@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //javascript conditional statements
+        //if else else if
+        let paymentstatus=true;
+        let login=true;
+        if(login&&paymentstatus){
+            console.log("order completed!");
+        }else{
+            console.log("go to home page");
+        }
+
+        let number1= 10, number2=5;
+        if(number1==number2){
+            console.log("both are same");
+        }else if(number1<number2){
+            console.log(number1+" "+"is less than"+" "+number2);
+        }else{
+            console.log(number1+" "+"is not less than"+number2);
+        }
+
+        let condition=true;
+        if(condition) {
+            console.log("condition:true");
+            console.log("condition:true");
+        }
+        
+        else{
+            console.log("condition:false");
+        }
+        let isRaining=true;
+        let iscloudy=false;
+        if(isRaining||iscloudy){
+            console.log("Do not forget take the umberalla");
+        }
+        else{
+            console.log("sky is normal emjoy with a weather");
+        }
+
+        //If hours is between 12am(0)to 1pm(13)=good morning
+        //else if hour is between 1pm(13)to 5pm(17)=good afternoon
+        //else hour  is between 5pm(17)to 12am(0)=good evening
+
+        let hour=18;
+
+        if(hour>=0 && hour<=13)
+        console.log("good morning");
+        else if(hour>=13 && hour<=17)
+        console.log("good afternoon");
+        else
+        console.log("good evening");
+
+
+
+            
+        
+        
+
+    </script>
+    
+</body>
+</html>
